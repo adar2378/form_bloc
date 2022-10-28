@@ -831,7 +831,6 @@ class _TypeAheadFieldState<T> extends State<TypeAheadField<T>>
         minLines: widget.textFieldConfiguration.minLines,
         maxLines: widget.textFieldConfiguration.maxLines,
         maxLength: widget.textFieldConfiguration.maxLength,
-        maxLengthEnforced: widget.textFieldConfiguration.maxLengthEnforced,
         obscureText: widget.textFieldConfiguration.obscureText,
         onTap: widget.onTap,
         onChanged: (value) {
